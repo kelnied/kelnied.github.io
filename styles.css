@@ -1,0 +1,55 @@
+header {
+    background-color: #1B998B;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(180, 202, 213);
+}
+
+footer {
+    background-color: #CBF6E9;
+}
+
+.centered {
+    text-align: center;
+}
+
+.intro {
+    max-width: 500;
+    text-align: left;
+    background-color: blue;
+    padding: 10px 10px;
+    margin: 50px;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.text-container {
+    /* Set the background image */
+    background-image: ('images/lake.jpg');
+    /* */
+    background-size: cover;
+    /* Scales the image to cover the entire container */
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+    /* Prevents the image from tiling */
+
+    /* Set container dimensions (adjust as needed) */
+    height: 300px;
+    width: 100%;
+
+    /* Style the text for readability */
+    color: white;
+    /* Choose a contrasting color */
+    font-size: 48px;
+    text-align: center;
+    padding-top: 100px;
+    /* Adjust padding to position the text */
+}
